@@ -8,5 +8,14 @@ package com.asm.blockchain.client.comm;
  *
  */
 public class MessageToClient {
+	private String name = null;
 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
 }
