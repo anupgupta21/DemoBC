@@ -9,6 +9,15 @@ package com.asm.blockchain.client.comm;
  */
 public class MessageToClient {
 	private String name = null;
+	private String address = null;
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
 
 	public String getName() {
 		return name;
@@ -17,5 +26,5 @@ public class MessageToClient {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+	// Comments are aaded
 }
